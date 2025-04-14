@@ -20,7 +20,7 @@ Make sure Ollama is installed and running:
 Place your PDFs inside the data/ folder.
   - `python ragcreate.py`
 ## Run the query script:
-  - `python ragrun.py`
+  `python ragrun.py`
 - It loads the saved index and lets you ask questions. You can change the question inside 
 
 # You can ask things like
