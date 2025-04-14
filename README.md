@@ -12,12 +12,14 @@ You can query your own documents using a local model with no internet or API key
 
 Make sure Ollama is installed and running:
 - Under bash
-- `ollama run llama3`
+
+`ollama run llama3`
 
 
 # How to Use
 ## Create the RAG (run once)
-Place your PDFs inside the data/ folder.
+- Place your PDFs inside the data/ folder.
+
   `python ragcreate.py`
 ## Run the query script:
   `python ragrun.py`
